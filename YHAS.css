@@ -1,0 +1,72 @@
+analog.css
+html,body{
+	font-size: 80%;
+	font-family: "Courier New", Courier, monospace;
+	letter-spacing: 0.15em;
+	background-image: url(yhas.jpg); 
+	background-size: contain;
+}
+#logo img{
+	height: 90px;
+    width: 120px;
+}
+h1{
+	text-align: center;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    border: 0px;
+    padding: 10px;
+  }
+#page{
+	max-width: 940px;
+	min-width: 720px;
+	margin: 30px auto 30px auto;
+	padding: 20px;
+	border: 4px double #ede0d4;
+}
+#logo{
+	width: 150px;
+	margin: 10px auto 25px auto; 
+}
+ul {
+	width: 550px;
+	padding: 20px;
+	margin: 0px auto 0px auto;
+	border-top: 2px solid #ede0d4;
+	border-bottom: 2px solid #ede0d4;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+li{
+	font-size: 15px;
+	display: inline;
+	margin: 0px 10px;
+}
+.center {
+    margin: auto;
+    width: 550px;
+    height: 200px;
+    border: 0px;
+    padding: 10px;
+  }
+p{
+	font-size: 15px;
+    color: #ede0d4;
+	text-align: center;
+	width: 600px;
+	margin: 20px auto 20px auto;
+	font-weight: normal;
+}
+a{
+	color: #ede0d4;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 6px 10px;
+}
+a:hover, a.on{
+	color: #588157;
+	background-color: #ffffff;
+}
